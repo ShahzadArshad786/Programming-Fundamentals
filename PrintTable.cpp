@@ -3,7 +3,7 @@
 
     Write a program using C++ that inputs an positive number and prints table of that input number using any loop. 
 
-    If user input 5, the output will be displayed as:
+    If the user input 5, the output will be displayed as:
 
     5 * 1 = 5
     5 * 2 = 10
