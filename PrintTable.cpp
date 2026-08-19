@@ -1,3 +1,11 @@
+
+/*
+
+    Write a program that inputs an integer positive number and prints 
+    its table using any loop. 
+
+*/
+
 #include<iostream>
 using namespace std ; 
 
