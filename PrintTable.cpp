@@ -11,7 +11,7 @@ int main()
 
     for(int i = 1 ; i <= 10 ; i++)
     {
-        cout<< num << " * "<< i << " = "<< i * num <<endl; 
+        cout<< num << " * "<< i << " = "<< num * i <<endl; 
     }
 
     return 0 ; 
