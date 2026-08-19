@@ -1,8 +1,7 @@
 
 /*
 
-    Write a program that inputs an integer positive number and prints 
-    its table using any loop. 
+    Write a program that inputs an integer positive number and prints table of that input number using any loop. 
 
 */
 
