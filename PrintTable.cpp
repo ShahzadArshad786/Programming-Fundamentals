@@ -1,7 +1,7 @@
 
 /*
 
-    Write a program that inputs an integer positive number and prints table of that input number using any loop. 
+    Write a program using C++ that inputs an positive number and prints table of that input number using any loop. 
 
 */
 
