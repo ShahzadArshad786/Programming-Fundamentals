@@ -7,11 +7,11 @@ int main()
     int num ; 
 
     cout<<"Enter an Integer Number for a Table : ";
-    cin>>num ; 
+    cin>> num ; 
 
     for(int i = 1 ; i <= 10 ; i++)
     {
-        cout<< num << " * "<< i << " = "<< i * num<<endl; 
+        cout<< num << " * "<< i << " = "<< i * num <<endl; 
     }
 
     return 0 ; 
