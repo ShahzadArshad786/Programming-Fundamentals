@@ -10,40 +10,35 @@
     Even Numbers Between 5 and 21 are : 6 , 8 , 10 , 12 , 14 , 16 , 18 , 20
 */
 
-
 #include<iostream>
 using namespace std ;
 
 int main()
 {
 
-    int start_of_Range , end_of_Range ; 
+    int start , end ; 
 
     cout<<"Enter Value for Start of Range : " ;
-    cin>> start_of_Range ;
+    cin>> start ;
 
     cout<<"Enter Value For End of Range   : " ;
-    cin>> end_of_Range;
+    cin>> end;
 
-    int num = start_of_Range ; 
+    cout<<"\nEven Numbers Between "<<start<< " to "<<end<< " are : ";
 
-    cout<<"\nEven Numbers Between "<<num<< " to "<<end_of_Range<< " are : ";
-    while(num <= end_of_Range)
+    while(start <= end)
     {
-        if(num % 2 == 0)
-        {
-            if(num < end_of_Range - 1)
-            {
-                cout<<num<< " , ";
-            }
-            else
-            {
-                cout<<num<<endl; 
-            }
+    
+       if(start % 2 == 0)
+       {
+            cout<< start ;
 
-        }
+             if (start + 2 <= end)
+                    cout << " , ";
+       }
 
-        num = num + 1 ; 
+       start = start + 1 ;
     }
+
     return 0 ; 
 }
