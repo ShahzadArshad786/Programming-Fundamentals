@@ -32,7 +32,14 @@ int main()
     {
         if(num % 2 == 0)
         {
-            cout<<num<< " , ";
+            if(num < end_of_Range - 1)
+            {
+                cout<<num<< " , ";
+            }
+            else
+            {
+                cout<<num<<endl; 
+            }
         }
 
         num = num + 1 ; 
