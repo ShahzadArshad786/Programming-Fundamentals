@@ -7,7 +7,7 @@
 
     Output will be: 
 
-    Even Numbers Between 5 and 21 are : 6 8 10 12 14 16 18 20
+    Even Numbers Between 5 and 21 are : 6 , 8 , 10 , 12 , 14 , 16 , 18 , 20
 */
 
 
@@ -32,7 +32,7 @@ int main()
     {
         if(num % 2 == 0)
         {
-            cout<<num<< "  ";
+            cout<<num<< " , ";
         }
 
         num = num + 1 ; 
