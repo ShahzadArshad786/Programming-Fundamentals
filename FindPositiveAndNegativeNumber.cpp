@@ -1,6 +1,6 @@
 /*
     Write a program that takes a number from the keyboard and checks whether that number is positive or not. 
-    If it is positive, then check whether it is even or odd, and display the result accordingly
+    If it is positive, then check whether it is even or odd, and display the result accordingly. 
 */
 
 #include<iostream>
